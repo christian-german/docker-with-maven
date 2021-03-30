@@ -7,4 +7,4 @@ RUN cd /opt && curl -sSl http://mirror.vorboss.net/apache/maven/maven-3/3.6.3/bi
 RUN rm -rf /var/cache/apk/*
 
 ENV PATH "$PATH:/opt/apache-maven-3.6.3/bin"
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["dockerd-entrypoint.sh"]
