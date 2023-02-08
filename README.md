@@ -1,5 +1,5 @@
 # docker-with-maven
-Image containing both docker:19.03.12 and maven 3.6.3 running on openjdk11.
+Image containing both docker:19.03.12 and maven 3.9.0 running on openjdk17.
 
 -----
 
